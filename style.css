@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:red;
+
+}
+
+.controller-container > .nes-controller > .dark-part {
+    position: absolute;
+    width: 553px;
+    height: 196px;
+    background-image: url(data:image/png;base64,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);
+    background-color: #101314;
+    border-radius:10px;
+    border-left: 20px solid #bebab2;
+    border-top: 45px solid #bebab2;
+    border-right: 20px solid #bebab2;
+    border-bottom: 20px solid #bebab2;
+}
+
+             /* --------------------------La croix directionnelle--------------------------*/
+
+.updown.arrows-outline {
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: 72px;
+    width: 33px;
+	height: 100px;
+    background:rgb(0, 0, 0);
+    border-radius:5px;    
+}
+
+/*petite encoche pour le câble*/
+span:nth-child(5):after {
+    content:'<span>&nbsp;</span>';
+    color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: -45px;
+    left: -50px;
+    width: 26px;
+    height: 9px;   
+    background: linear-gradient(180deg, rgb(226, 223, 223), hsl(40, 11%, 78%), #bbb7b0, #afaca5);    
+    border-left: 1px solid #b1ada7;
+    border-right: 1px solid #7e7c78;
+    border-bottom: 1px solid #7e7c78;
+}
+/*rond au centre de la croix directionnelle*/
+span:nth-child(5):before {
+    content:'<span>&nbsp;</span>';
+    color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: 94px;
+    left: -102px;
+    width: 28px;
+    height: 28px;   
+    background: linear-gradient(130deg, #000,#000, #000, rgb(223, 222, 222), #000);
+    border-radius: 30px;    
+    border: 1px solid rgb(63, 62, 62);
+}
+
+
+
+.leftright.arrows-outline {
+    z-index: 1;
+    position: absolute;
+    top: 93px;
+    left: 38px;
+    width: 100px;
+    height: 33px;
+    background:rgb(0, 0, 0);
+    border-radius:5px;
+}
+
+.updown.arrows {
+    position: absolute;
+    top: 56px;
+    left: 68px;
+    width: 33px;
+	height: 100px;
+    border-radius:10px;
+    border: 4px solid #bebab2;
+}
+
+.leftright.arrows {
+    position: absolute;
+    top: 89px;
+    left: 34px;
+    width: 100px;
+    height: 33px;
+    border-radius:10px;
+    border: 4px solid #bebab2;
+}
+
+            /* --------------------------Le bloc du milieu--------------------------*/
+
+span:nth-child(5) {
+    position: absolute;
+    top: 0px;
+    left: 176px;
+    width: 167px;
+    height: 26px;   
+    background:#868583;
+    border-radius: 5px;    
+}
+
+
+span:nth-child(6) { 
+    position: absolute;
+    top: 34px;
+    left: 176px;
+    width: 167px;
+	height: 26px;
+    background:#868583;
+    border-radius: 5px;    
+}
+
+span:nth-child(7) { 
+    position: absolute;
+    top: 68px;
+    left: 176px;
+    width: 167px;
+	height: 22px;
+    background:#868583;
+    border-radius: 5px;  
+    font-size: 16px;  
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 4px;
+}
+
+.grey-separator.buttons {
+    position: absolute;
+    top: 102px;
+    left: 176px;
+    width: 158px;
+	height: 50px;
+    background: linear-gradient(130deg, #ebeae7, #bebab2);
+    border-radius: 5px; 
+    border: 5px double #a5a29f;  
+}
+
+span:nth-child(9) { 
+        position: absolute;
+        top: 176px;
+        left: 176px;
+        width: 167px;
+        height: 20px;
+        text-align: left;
+        font-size: 15px;
+        background:#868583;
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+.grey-separator.buttons > .button:nth-child(1) {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    width: 42px;
+	height: 15px;
+    background:#363634;
+    border-radius: 10px;    
+    border: 1px solid #242323;
+}
+
+.grey-separator.buttons > .button {
+    position: absolute;
+    top: 16px;
+    left: px;
+    width: 43px;
+	height: 16px;
+    background:#363634;
+    border-radius: 10px;    
+}
+
+  /* --------------------------Le bloc de droite--------------------------*/
+
+.outline { 
+    position: absolute;
+    top: -68px;
+    left: -47px;
+    width: 63px;
+	height: 63px;
+    background:linear-gradient(130deg, #ebeae7, #bebab2);
+    border-radius: 10px;    
+    border: 1px solid #a09d97;
+}
+
+.outline > span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 51px;
+	height: 51px;
+    background: linear-gradient(130deg, red, red, pink, red);
+    border-radius: 30px;    
+    border: 1px solid #363634af;
+}
+
+.right-button { /*B*/
+    position: absolute;
+    top: 179px;
+    left: 424px;
+    width: 73px;
+    height: 73px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.right-button:last-child { /*A*/
+    position: absolute;
+    top: 179px;
+    left: 500px;
+    width: 73px;
+    height: 73px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.nintendo-logo {
+    position: absolute;
+    top: 37px;
+    left: 386px;
+    font-size: 30px;
+}
+
+
+
+
+
+  
